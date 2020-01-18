@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Tools\\": "src/"
+    	}
+    },
+    "authors" : [
+      {
+        "name": "Mindaugas Kalinauskas",
+        "email": "mkalinauskas35@gmail.com"
+      }
+    ]
+}

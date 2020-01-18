@@ -1,0 +1,8 @@
+# vendors
+/vendor
+
+# phpunit
+.phpunit.*
+
+# misc
+.DS_Store
