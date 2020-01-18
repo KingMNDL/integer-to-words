@@ -1,7 +1,15 @@
-version: '3.4'
+version: '3'
 services:
+
     php:
-        build: .
-        container_name: "php"
+        image: php:7.1.3-fpm
         volumes:
              - .:/var/www/html
+    composer: 
+        image: "composer"
+        command: install
+        working_dir: /var/www/html
+        volumes:
+             - .:/var/www/html
+
+           
