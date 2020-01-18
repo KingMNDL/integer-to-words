@@ -8,6 +8,7 @@ namespace Tools;
 class Converter {
 	const MIN = -99999;
 	const MAX = 99999;
+	
 	/**
 	 * Function to convert integer number
 	 * to english word
